@@ -12,10 +12,14 @@
     "@testing-library/user-event": "^12.0.2",
     "axios": "^0.21.1",
     "google-map-react": "^2.1.10",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
+    "react-router-dom": "^6.4.5",
     "react-scripts": "4.0.3",
+    "sort-by": "^1.2.0",
     "web-vitals": "^0.2.2"
   },
   "scripts": {
@@ -46,5 +50,9 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/adrianhajdin/project_travel_advisor",
+  "author": "g3tr3ktx <samarsheikh001@gmail.com>",
+  "license": "MIT"
 }
