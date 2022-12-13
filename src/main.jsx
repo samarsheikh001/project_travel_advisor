@@ -6,7 +6,7 @@ export default function Main() {
       <section className="header_menu" id="header_menu">
         <div className="container-fluid px-0 shadow">
           <nav className="navbar navbar-expand-lg navbar-light bg-light py-3 ">
-            <a className="navbar-brand pl-5 pl-small-0" href="index.html">
+            <a className="navbar-brand pl-5 pl-small-0" href="index">
               <img
                 src="Photos\logo.png"
                 className="img img-fluid"
@@ -28,7 +28,7 @@ export default function Main() {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav mx-auto">
                 <li className="nav-item active">
-                  <a className="nav-link" href="index.html"><b>Home&emsp;&emsp;&emsp;</b>
+                  <a className="nav-link" href="index"><b>Home&emsp;&emsp;&emsp;</b>
                     <span
                       className="sr-only"
                     >(current)
@@ -36,20 +36,23 @@ export default function Main() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="logIn.html"><b>Sign in&emsp;&emsp;&emsp;</b></a>
+                  <a className="nav-link" href="signin"><b>Sign in&emsp;&emsp;&emsp;</b></a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="SignUp.html"><b>Sign up&emsp;&emsp;&emsp;</b></a>
+                  <a className="nav-link" href="SignUp"><b>Sign up&emsp;&emsp;&emsp;</b></a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="about.html"><b>About Us&emsp;&emsp;&emsp;</b></a>
+                  <a className="nav-link" href="about"><b>About Us&emsp;&emsp;&emsp;</b></a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="contact.html"><b>Contact Us</b></a>
+                  <a className="nav-link" href="contact"><b>Contact Us</b></a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="travel"><b>Dashboard</b></a>
                 </li>
               </ul>
               <div className="profile mr-3">
-                <a href="login.html">
+                <a href="login">
                   <i className="fas fa-car-duotone fa-3x" />
                 </a>
               </div>

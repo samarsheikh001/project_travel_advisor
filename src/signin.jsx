@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Contact() {
+export default function SignIn() {
   return (
     <div>
       <section className="header_menu" id="header_menu">
@@ -29,7 +29,10 @@ export default function Contact() {
               <ul className="navbar-nav mx-auto">
                 <li className="nav-item active">
                   <a className="nav-link" href="index"><b>Home&emsp;&emsp;&emsp;</b>
-                    (current)
+                    <span
+                      className="sr-only"
+                    >(current)
+                    </span>
                   </a>
                 </li>
                 <li className="nav-item">
@@ -45,53 +48,43 @@ export default function Contact() {
                   <a className="nav-link" href="contact"><b>Contact Us</b></a>
                 </li>
               </ul>
+              <div className="search mr-3">
+                <a href="/">
+                  <i className="fas fa-car-duotone fa-3x" />
+                </a>
+              </div>
             </div>
           </nav>
         </div>
       </section>
+      <div className="bg-img"> </div>
 
-      <section className="contact py-5 my-5" id="contact">
-        <div className="container ">
-          <div className="section_title text-center mb-5">
-            <h1 className="text-capitalize"><u>Contact Us</u></h1>
+      <div className="content">
+        <img src="Photos\logo.png" />
+        <br />
+        <br />
+        <header>Login </header>
+        <form action="#">
+          <div className="field">
+            <span className="fa fa-user" />
+            <input type="text" required Placeholder="Email or phone no" />
           </div>
-          <div className="row mb-5">
-            <div className="col-md-4 col-12">
-              <div className="border border-success rounded shadow text-center p-3">
-                <div className="mb-4">
-                  <i className="fas fa-phone-alt fa-3x" />
-                </div>
-                <div>
-                  <h3>Lets Talk</h3>
-                  <p><b>Phone:</b> +91-9876543210</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4 col-12">
-              <div className="border border-success rounded shadow text-center p-3">
-                <div className="mb-4">
-                  <i className="fas fa-envelope-open fa-3x" />
-                </div>
-                <div>
-                  <h3>Drop a Line</h3>
-                  <p><b>Email:</b> xyz@gmail.com</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4 col-12">
-              <div className="border border-success rounded shadow text-center p-3">
-                <div className="mb-4">
-                  <i className="far fa-life-ring fa-3x" />
-                </div>
-                <div>
-                  <h3>24x7 Support</h3>
-                  <p><b>Customer:</b> 1800 101 303</p>
-                </div>
-              </div>
-            </div>
+          <div className="field space">
+            <span className="fa fa-lock" />
+            <input type="password" className="Password" required Placeholder="Password" />
+            <span className="show">SHOW</span>
           </div>
-        </div>
-      </section>
+          <div className="pass">
+            <a href="/">Forgot Password?</a>
+          </div>
+          <a href="dashboard" className="btn btn-primary btn-block">LOGIN</a>
+          <br />
+          <div className="signup">Don&apost have account?
+            <a href="SignUp"><b> SignUp Now</b></a>
+
+          </div>
+        </form>
+      </div>
     </div>
   );
 }

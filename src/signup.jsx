@@ -21,7 +21,7 @@ export default function Signup() {
       <section className="header_menu" id="header_menu">
         <div className="container-fluid px-0 shadow">
           <nav className="navbar navbar-expand-lg navbar-light bg-light py-3 ">
-            <a className="navbar-brand pl-5 pl-small-0" href="index.html">
+            <a className="navbar-brand pl-5 pl-small-0" href="index">
               <img
                 src="Photos\logo.png"
                 className="img img-fluid"
@@ -43,7 +43,7 @@ export default function Signup() {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav mx-auto">
                 <li className="nav-item active">
-                  <a className="nav-link" href="index.html"><b>Home&emsp;&emsp;&emsp;</b>
+                  <a className="nav-link" href="index"><b>Home&emsp;&emsp;&emsp;</b>
                     <span
                       className="sr-only"
                     >(current)
@@ -51,16 +51,16 @@ export default function Signup() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="logIn.html"><b>Sign in&emsp;&emsp;&emsp;</b></a>
+                  <a className="nav-link" href="logIn"><b>Sign in&emsp;&emsp;&emsp;</b></a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="SignUp.html"><b>Sign up&emsp;&emsp;&emsp;</b></a>
+                  <a className="nav-link" href="SignUp"><b>Sign up&emsp;&emsp;&emsp;</b></a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="about.html"><b>About Us&emsp;&emsp;&emsp;</b></a>
+                  <a className="nav-link" href="about"><b>About Us&emsp;&emsp;&emsp;</b></a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="contact.html"><b>Contact Us</b></a>
+                  <a className="nav-link" href="contact"><b>Contact Us</b></a>
                 </li>
               </ul>
               <div className="search mr-3">
@@ -92,10 +92,10 @@ export default function Signup() {
             <div className="pass">
               <a href="/forgot">Forgot Password?</a>
             </div>
-            <a href="dashboard.html" className="btn btn-primary btn-block">LOGIN</a>
+            <a href="dashboard" className="btn btn-primary btn-block">LOGIN</a>
             <br />
             <div className="signup">Don&apost have account?
-              <a href="SignUp.html"><b> SignUp Now</b></a>
+              <a href="SignUp"><b> SignUp Now</b></a>
 
             </div>
           </form>

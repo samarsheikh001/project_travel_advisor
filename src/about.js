@@ -6,7 +6,7 @@ export default function About() {
       <section className="header_menu" id="header_menu">
         <div className="container-fluid px-0 shadow">
           <nav className="navbar navbar-expand-lg navbar-light bg-light py-3 ">
-            <a className="navbar-brand pl-5 pl-small-0" href="index.html">
+            <a className="navbar-brand pl-5 pl-small-0" href="index">
               <img src="/Photos/logo.png" className="img img-fluid" width="100px" alt="LOGO" />
             </a>
             <button
@@ -23,27 +23,27 @@ export default function About() {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav mx-auto">
                 <li className="nav-item active">
-                  <a className="nav-link" href="index.html">
+                  <a className="nav-link" href="index">
                     <b>Home&emsp;&emsp;&emsp;</b> <span className="sr-only">(current)</span>
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="logIn.html">
+                  <a className="nav-link" href="logIn">
                     <b>Sign in&emsp;&emsp;&emsp;</b>
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="SignUp.html">
+                  <a className="nav-link" href="SignUp">
                     <b>Sign up&emsp;&emsp;&emsp;</b>
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="about.html">
+                  <a className="nav-link" href="about">
                     <b>About Us&emsp;&emsp;&emsp;</b>
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="contact.html">
+                  <a className="nav-link" href="contact">
                     <b>Contact Us</b>
                   </a>
                 </li>

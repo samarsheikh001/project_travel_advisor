@@ -6,6 +6,7 @@ import Contact from './contact';
 import Thank from './thanks';
 import Main from './main';
 import Signup from './signup';
+import SignIn from './signin';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: '/signup',
     element: <Signup />,
+  },
+  {
+    path: '/signin',
+    element: <SignIn />,
   },
 ]);
 
